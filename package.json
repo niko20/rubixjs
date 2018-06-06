@@ -1,0 +1,21 @@
+{
+  "name": "rubikjs",
+  "version": "0.1.0",
+  "description": "Framework for Nodejs",
+  "main": "lib/index.js",
+  "directories": {
+      "lib": "lib"
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niko20/rubikJS.git"
+  },
+  "author": "RubikJS Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/niko20/rubikJS/issues"
+  },
+  "homepage": "https://github.com/niko20/rubikJS#readme"
+}
