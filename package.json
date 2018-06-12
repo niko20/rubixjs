@@ -1,13 +1,15 @@
 {
-  "name": "rubikjs",
-  "version": "0.1.0",
+  "name": "rubixjs",
+  "version": "0.1.7",
   "description": "Framework for Nodejs",
   "main": "lib/index.js",
+  "bin": {
+    "rubix": "lib/index.js"
+  },
   "directories": {
-      "lib": "lib"
+    "lib": "lib"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/niko20/rubikJS.git"
@@ -17,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/niko20/rubikJS/issues"
   },
-  "homepage": "https://github.com/niko20/rubikJS#readme"
+  "homepage": "https://github.com/niko20/rubikJS#readme",
+  "dependencies": {
+    "shelljs": "^0.8.2"
+  }
 }
